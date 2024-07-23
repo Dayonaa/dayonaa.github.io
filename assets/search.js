@@ -245,7 +245,7 @@ $(() => {
     },
     select: function (event, ui) {
       if (ui.item.l !== constants.noResult.l) {
-        const uri = "assets/" + ui.item.url;
+        const uri = "/assets/" + ui.item.url;
         window.location.href = uri;
         $("#search").focus();
       }
