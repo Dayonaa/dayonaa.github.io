@@ -1,0 +1,745 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en"><head>
+    <title>DeviceUtilities 1.0-SNAPSHOT API </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="dc.created" content="2020-03-25">
+    <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../../dokka-javadoc-stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../../jquery/jquery-ui.css" title="Style">
+    <script type="text/javascript" src="../../../../jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../../jquery/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="../../../../jquery/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="../../../../search.js"></script>
+    <script async type="text/javascript" src="../../../../module-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../package-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../type-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../member-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../tag-search-index.js"></script>
+</head><body>
+<script type="text/javascript">
+var pathtoroot = "../../../../";
+</script>
+<noscript>
+    <div>JavaScript is disabled on your browser.</div>
+</noscript><header role="banner">
+    <nav role="navigation">
+        <div class="fixedNav">
+            <!-- ========= START OF TOP NAVBAR ======= -->
+            <div class="topNav"><a id="navbar.top">
+                <!--   -->
+            </a>
+                <div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a>
+                </div>
+                <a id="navbar.top.firstrow">
+                    <!--   -->
+                </a>
+                <ul class="navList" title="Navigation">
+    <li><a href="../../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li>Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+            <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+
+<ul class="navListSearch">
+<li><label for="search">SEARCH:</label>
+<input type="text" id="search" value="search" class="ui-autocomplete-input" autocomplete="off" placeholder="Search">
+<input type="reset" id="reset" value="reset">
+</li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ========= END OF TOP NAVBAR ========= -->
+        </div>
+        <div class="navPadding">&nbsp;</div>
+        <script type="text/javascript"><!--
+        $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
+        //-->
+        </script>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="header">
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">id.bni46.microservices.device</a></div>
+        <h2 title="Interface DeviceUtilities" class="title">Interface DeviceUtilities</h2>
+    </div>
+    <div class="contentContainer">
+        <!-- <ul class="inheritance">
+            <li>java.lang.Object</li>
+            <li>
+                <ul class="inheritance">
+                    <li>adaptation.Adaptation</li>
+                </ul>
+            </li>
+        </ul> TODO inheritance tree -->
+        <div class="description">
+            <ul class="blockList">
+                <li class="blockList">
+                    
+                    <dl>
+                        <dt>All Implemented Interfaces:</dt>
+                        <dd>
+                            
+                        </dd>
+                    </dl>
+                    
+                    <hr>
+                    <pre class="wrap-overflow">
+
+public interface <span class="typeNameLabel"><a href=DeviceUtilities.html>DeviceUtilities</a></span>
+
+                    </pre>
+                    <div class="block"><p>Harap dicatat jika akan menggunakan pewarisan dari class <a href=DeviceUtilities.html>DeviceUtilities</a> pastikan nama class yang Anda gunakan spesifik dengan nama Bluetooth pada perangkat micro ATM.</p><ul><li><p>Tidak disarankan untuk membuat instance objek dengan konteks atau aktivitas secara langsung dengan field.</p></li><li><p>Jika ingin menggunakan opsi pertama, pastikan tidak ada <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html>Exception</a> yang terjadi.</p></li></ul><pre><code>class Fedora : DeviceUtilities {
+
+  override suspend fun connecting(macAddress: String): Boolean {
+    TODO(&quot;Not yet implemented&quot;)
+  }
+
+  override suspend fun startEmv(requiredPin: Boolean): EmvResult? {
+    TODO(&quot;Not yet implemented&quot;)
+  }
+
+  override suspend fun injectKey(pinKey: String, dataKey: String): Boolean {
+    TODO(&quot;Not yet implemented&quot;)
+  }
+
+  override suspend fun inputPin(pan: String): String? {
+    TODO(&quot;Not yet implemented&quot;)
+  }
+
+  override fun encryption(data: String): String? {
+    TODO(&quot;Not yet implemented&quot;)
+  }
+
+  override fun decryption(data: String): String? {
+    TODO(&quot;Not yet implemented&quot;)
+  }
+
+  override fun getDeviceSn(): String {
+    TODO(&quot;Not yet implemented&quot;)
+  }
+
+  override fun disconnected() {
+    TODO(&quot;Not yet implemented&quot;)
+  }
+}</code></pre></div>
+
+                    <dl>
+
+                    
+
+                    
+
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul class="blockList">
+                <li class="blockList">
+                <!-- ======== NESTED CLASS SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="nested.class.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Nested Class Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Class</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== FIELD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="field.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Field Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Field</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ======== CONSTRUCTOR SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tbody>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Constructor</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+
+                                        
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== ENUM CONSTANT SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="enum.constant.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Enum Constant Summary</h3>
+                                <table class="memberSummary">
+                                    <caption><span>Enum Constants</span><span class="tabEnd">&nbsp;</span></caption>
+                                    <tr>
+                                        <th class="colFirst" scope="col">Enum Constant</th>
+                                        <th class="colLast" scope="col">Description</th>
+                                    </tr>
+                                    
+                                </table>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ========== METHOD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Method Summary</h3>
+                                <div class="memberSummary">
+                                    <div role="tablist" aria-orientation="horizontal">
+                                        <button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">All Methods</button>
+                                        <!-- TODO: Instance and Concrete Methods #1118 -->
+                                    </div>
+                                    <div id="memberSummary_tabpanel" role="tabpanel">
+                                    <table aria-labelledby="t0">
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Method</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr id="i0" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#connecting(java.lang.String)>connecting</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> macAddress) </code>
+                                            </th>
+                                            <td class="colLast">Menghubungkan ke perangkat Bluetooth.</td>
+                                        </tr>
+                                        
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../data/emv/EmvResult.html>EmvResult</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#startEmv(java.lang.Boolean,java.lang.String)>startEmv</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a> requiredPin, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> amount) </code>
+                                            </th>
+                                            <td class="colLast">Memulai proses EMV.</td>
+                                        </tr>
+                                        
+                                        <tr id="i2" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#injectKey(java.lang.String,java.lang.String)>injectKey</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> pinKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> dataKey) </code>
+                                            </th>
+                                            <td class="colLast">Menyuntikkan kunci PIN dan kunci data.</td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=../data/pinresult/PinResult.html>PinResult</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#inputPin(java.lang.String)>inputPin</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> pan) </code>
+                                            </th>
+                                            <td class="colLast">Meminta input PIN dari pengguna.</td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#encryption(java.lang.String)>encryption</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> data) </code>
+                                            </th>
+                                            <td class="colLast">Melakukan enkripsi data.</td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#decryption(java.lang.String)>decryption</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> data) </code>
+                                            </th>
+                                            <td class="colLast">Melakukan dekripsi data.</td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#getDeviceSn()>getDeviceSn</a>() </code>
+                                            </th>
+                                            <td class="colLast">Mendapatkan nomor seri perangkat.</td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#disconnected()>disconnected</a>() </code>
+                                            </th>
+                                            <td class="colLast">Memutuskan koneksi Bluetooth.</td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=DeviceUtilities.html#transactionDone(java.lang.String)>transactionDone</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> msg) </code>
+                                            </th>
+                                            <td class="colLast">Khusus untuk MP45, untuk MP63 cukup di-log saja agar tidak terjadi exception &quot;not implemented&quot;.</td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <ul class="blockList">
+                                
+                                    <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
+                                        <!--   -->
+                                    </a>
+                                        <h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+                                        <code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString,
+                                            wait, wait, wait</code></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul class="blockList">
+                <li class="blockList">
+                    <!-- ========= CONSTRUCTOR DETAIL ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Detail</h3>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ============ METHOD DETAIL ========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Method Detail</h3>
+                                
+                                <a id="connecting(java.lang.String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>connecting</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a> <a href=DeviceUtilities.html#connecting(java.lang.String)>connecting</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> macAddress)</pre>
+                                        <div class="block"><p>Menghubungkan ke perangkat Bluetooth.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>macAddress</code> - Alamat MAC perangkat Bluetooth.</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>True jika koneksi berhasil, false jika gagal.</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="startEmv(java.lang.Boolean,java.lang.String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>startEmv</h4>
+                                        <pre class="methodSignature"> abstract <a href=../data/emv/EmvResult.html>EmvResult</a> <a href=DeviceUtilities.html#startEmv(java.lang.Boolean,java.lang.String)>startEmv</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a> requiredPin, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> amount)</pre>
+                                        <div class="block"><p>Memulai proses EMV.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>requiredPin</code> - True jika memerlukan input PIN, false jika tidak.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>amount</code> - Jumlah transaksi.</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>Hasil dari proses EMV.</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="injectKey(java.lang.String,java.lang.String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>injectKey</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a> <a href=DeviceUtilities.html#injectKey(java.lang.String,java.lang.String)>injectKey</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> pinKey, <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> dataKey)</pre>
+                                        <div class="block"><p>Menyuntikkan kunci PIN dan kunci data.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>pinKey</code> - Kunci PIN.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>dataKey</code> - Kunci data.</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>True jika berhasil, false jika gagal.</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="inputPin(java.lang.String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>inputPin</h4>
+                                        <pre class="methodSignature"> abstract <a href=../data/pinresult/PinResult.html>PinResult</a> <a href=DeviceUtilities.html#inputPin(java.lang.String)>inputPin</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> pan)</pre>
+                                        <div class="block"><p>Meminta input PIN dari pengguna.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>pan</code> - Nomor kartu.</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>PIN yang dimasukkan oleh pengguna.</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="encryption(java.lang.String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>encryption</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> <a href=DeviceUtilities.html#encryption(java.lang.String)>encryption</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> data)</pre>
+                                        <div class="block"><p>Melakukan enkripsi data.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>data</code> - Data yang akan dienkripsi.</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>Data yang sudah dienkripsi.</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="decryption(java.lang.String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>decryption</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> <a href=DeviceUtilities.html#decryption(java.lang.String)>decryption</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> data)</pre>
+                                        <div class="block"><p>Melakukan dekripsi data.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>data</code> - Data yang akan didekripsi.</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>Data yang sudah didekripsi.</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getDeviceSn()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getDeviceSn</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> <a href=DeviceUtilities.html#getDeviceSn()>getDeviceSn</a>()</pre>
+                                        <div class="block"><p>Mendapatkan nomor seri perangkat.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>Nomor seri perangkat.</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="disconnected()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>disconnected</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=DeviceUtilities.html#disconnected()>disconnected</a>()</pre>
+                                        <div class="block"><p>Memutuskan koneksi Bluetooth.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="transactionDone(java.lang.String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>transactionDone</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=DeviceUtilities.html#transactionDone(java.lang.String)>transactionDone</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> msg)</pre>
+                                        <div class="block"><p>Khusus untuk MP45, untuk MP63 cukup di-log saja agar tidak terjadi exception &quot;not implemented&quot;.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>msg</code> - Pesan yang akan di-log.</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer role="contentinfo">
+    <nav role="navigation">
+        <!-- ======= START OF BOTTOM NAVBAR ====== -->
+        <div class="bottomNav"><a id="navbar.bottom">
+            <!--   -->
+        </a>
+            <div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a>
+            </div>
+            <a id="navbar.bottom.firstrow">
+                <!--   -->
+            </a>
+            <ul class="navList" title="Navigation">
+    <li><a href="../../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li>Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+        <a id="skip.navbar.bottom">
+            <!--   -->
+        </a>
+        <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ======== END OF BOTTOM NAVBAR ======= -->
+    </nav>
+</footer><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0"
+    style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+</body>
+</html>
